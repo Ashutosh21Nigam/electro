@@ -20,7 +20,17 @@
               },
               "codePush": {}
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "https://github.com/Ashutosh21Nigam/electro.git"
+                }
+              ]
+            }
+          }
         }
       ]
     },
